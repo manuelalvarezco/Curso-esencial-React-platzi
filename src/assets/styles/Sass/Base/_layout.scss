@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    font-family: "sans-serif";
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.w-100 {
+    width: 100% !important;
+}

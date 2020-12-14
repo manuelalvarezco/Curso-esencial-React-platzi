@@ -40,3 +40,25 @@
  `` npm i eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y ``
  * crear archivo .eslintrc https://gist.githubusercontent.com/gndx/60ae8b1807263e3a55f790ed17c4c57a/raw/0de495fc84df71ce97ef87c37505362f3512e1c3/eslintrc
  
+ ## Paquete para las imágenes
+ ` npm i file-loader --save-dev`
+  * Añadir regla en el webpack.config.js para tratar las imágenes
+  ``
+    {
+                test: /\.(png|gif|jpg)$/,
+                use: [
+                    {
+                        loader:  'file-loader',
+                        options: {
+                            name: 'assets/[hash].[ext]'
+                        }
+                    }
+                ]
+            }
+  ``
+
+  ## React Hooks
+  * import React, { useState, useEffect} from 'react';
+  
+  ## Props types
+  * `` npm i props types ``

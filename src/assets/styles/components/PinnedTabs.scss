@@ -1,0 +1,23 @@
+.pinned-tabs {
+    background: #dadada;
+    padding:2px 0;
+}
+
+.account-list {
+    display: flex;
+    align-items: center;
+}
+
+.account-list {
+    list-style: none;
+}
+
+.pinned-tabs__search-input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    line-height: 27px;
+    background: none;
+    background: #fff;
+}

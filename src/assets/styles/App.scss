@@ -1,5 +1,4 @@
-body{
-    margin:0;
-    background: red;
-    color: white;
-}
+@import './Sass/Base/layout';
+@import './Sass/Base/tipography';
+@import './Sass/Base/colors';
+@import './Sass/Base/media';
