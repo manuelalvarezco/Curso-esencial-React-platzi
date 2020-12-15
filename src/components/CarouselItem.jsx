@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CarouselItem = ({title, description}) =>(
     <div className="col-md-4">
@@ -9,5 +10,10 @@ const CarouselItem = ({title, description}) =>(
         <p className="parrafo text-muted">{description}</p>
     </div>
 )
+
+CarouselItem.propTypes = {
+    title: PropTypes.string,
+    description: PropTypes.string
+}
 
 export default CarouselItem;
